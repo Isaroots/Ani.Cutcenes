@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8054967644817628882}
+  - component: {fileID: 1223374}
   m_Layer: 0
   m_Name: Cutcene INICIAL
   m_TagString: Untagged
@@ -46,6 +47,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1223374
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8054967644817628883}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 564109041043717336, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782690786961}
+  - key: {fileID: 6735959725454291388, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273783005799769}
+  - key: {fileID: 2721736605841135745, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5168175027696869589, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273781526974238}
+  - key: {fileID: -6974536318878223222, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782701004868}
+  - key: {fileID: -1612727092616130236, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273781664097443}
+  - key: {fileID: -8283172309340765688, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782816757318}
+  - key: {fileID: -3212607145038284048, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782182917657}
+  - key: {fileID: -4672747719869759339, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273781286958830}
+  - key: {fileID: -6897317522213749127, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273780980339807}
+  - key: {fileID: -7825273512725628678, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273781652094059}
+  - key: {fileID: -7686465011552563626, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782738806197}
+  - key: {fileID: 8102748866258427277, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273781620352514}
+  - key: {fileID: 3524049319731935659, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782483145297}
+  - key: {fileID: -8045008321637925201, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273781172111315}
+  - key: {fileID: 9011507576884251794, guid: a934d7b12195cef41aa92241cb734c6c, type: 2}
+    value: {fileID: 7507273782413972116}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &8054967643297486756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1656,6 +1706,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!320 &127374075
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7507273782690786961}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 46ffbf07f7f10f746ba8edcd608c6212, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 8054967643875938098}
+  - key: {fileID: 0}
+    value: {fileID: 8054967643875938098}
+  - key: {fileID: 5647313644123386842, guid: 46ffbf07f7f10f746ba8edcd608c6212, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8596140356283890377, guid: 46ffbf07f7f10f746ba8edcd608c6212, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
 --- !u!4 &8711976458096506610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: dba1e398c09bea143bcedbcf819d9fc6, type: 3}
